@@ -1,0 +1,63 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environment ---
+.venv/
+env/
+venv/
+ENV/
+.venv*/
+
+# --- IDE и редакторы ---
+.vscode/
+.idea/
+*.iml
+
+# --- Тесты и кеш ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.cache/
+coverage.xml
+
+# --- Логи и временные файлы ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# --- Docker ---
+/pgdata/
+*.pid
+
+# --- Системные и OS файлы ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Environment variables ---
+.env
+.env.*
+
+# --- Reports / diagrams / visuals ---
+*.svg
+*.png
+*.pdf
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Notebook checkpoints ---
+.ipynb_checkpoints/
+
